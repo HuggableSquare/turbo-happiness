@@ -6,8 +6,7 @@ using namespace std;
 int main( )
 {
 	char ding[40];
-	int x;
-	x = 0;
+	int x = 0;
 	cout << "Enter a seed. ";
 	cin.get(ding, 40);
 	cin.ignore(80, '\n');
