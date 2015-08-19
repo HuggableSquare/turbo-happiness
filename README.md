@@ -1,4 +1,4 @@
 turbo-happiness
 ==============
 
-testing functions and other things in c++
+some really old c++ stuff, and sometimes code golf
