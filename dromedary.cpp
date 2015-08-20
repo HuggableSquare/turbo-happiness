@@ -13,14 +13,12 @@ int main() {
     if(input[z] == input[z+1]) {
       cout << input << " is NOT a dromedary word." << endl;
       return 0;
-    }
-    if(input[z] < input[z+1]) {
+    } if(input[z] < input[z+1]) {
       if(d != 0) {
         cout << input << " is NOT a dromedary word." << endl;
         return 0;
       }
-    }
-    if(input[z] > input[z+1]) {
+    } if(input[z] > input[z+1]) {
       d = 1;
     }
   }
